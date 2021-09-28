@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+.register-form div{
+    font-size: 20px;
+    width: 100%;
+    margin: 10px;
+}
+
+.register-form div input {
+    border: none;
+    border-radius: 5px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.perfil-usuario {
+    display: flex;
+    flex-direction: row;
+}
+
+.perfil-usuario label {
+    margin-right: 18px;
+}
+
+.perfil-usuario label input{
+    margin-right: 10px;
+}
+
+.categoria-interes {
+    display: flex;
+    flex-direction: column;
+}
+
+.categoria-interes label {
+    margin: 15px;
+}
+
+.categoria-interes label input{
+    margin-right: 10px;
+}
+
+.large-input {
+    width: 100%;
+}
+
+.nacimiento-label {
+    font-weight: 700;
+}
+
+.perfil-label {
+    font-weight: 700;
+}
+
+.categoria-label {
+    font-weight: 700;
+}
+
+.fotoPerfil-label {
+    font-weight: 700;
+}
+.box-fotoPerfil input {
+    max-width: 300px;
+}
+
+.password-label {
+    font-weight: 700;
+}
+
+button {
+        font-size: 20px;
+        background-color: #03264C;
+        color: white;
+        width: 100%;
+        border-radius: 5px;
+        margin: 10px;
+    
+}
+
+@media(min-width: 426px) {
+    .box-fotoPerfil input {
+        max-width: 100%;
+    }
+}

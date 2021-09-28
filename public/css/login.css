@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box-form-login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-login {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-login input {
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 100%;
+}
+
+.form-login div {
+    margin: 20px;
+    width: 100%;
+    max-width: 650px;
+}
+
+.send-button {
+    font-size: 20px;
+    background-color: #03264C;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    transition: background-color 450ms;
+}
+
+.send-button:hover {
+    background-color: #0022AA;
+}
